@@ -1,0 +1,37 @@
+.whymysite .containerr{
+    width: 95%;
+    margin: auto;
+
+}
+.whymysite{
+    padding: 50px 0;
+}
+.whymysite .items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    direction: rtl;
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+}
+.whymysite .image{
+    /* border: 1px solid #445b63; */
+    border-radius: 50%;
+    padding: 21px;    margin: auto;
+/* background-color: #6c787c; */
+background-color: white;
+width: 111px;
+}
+
+.whymysite .item{
+}
+.whymysite .item p{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.whymysite .item span{
+    font-size: 14px;
+    text-align: center;
+}

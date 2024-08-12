@@ -1,0 +1,97 @@
+.hero {
+    min-height: 100vh;
+    /* position: relative; */
+    direction: rtl;
+    height: fit-content;
+    /* background-image: url('https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .hero .imag {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+} */
+
+.hero .text {
+    max-width: 95%;
+
+    width: 95%;
+    margin-top: 7rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.hero-form input {
+    height: 70px;
+    padding-left: 18%;
+    margin-bottom: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.hero-form {
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    max-width: 517px;
+}
+
+.hero h3 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 25px;
+    color: rgb(34, 34, 34);
+    font-weight: 300;
+}
+
+.hero-form .btn {
+    border-color: #445b63;
+    background: #445b63;
+    color: #fff !important;
+    padding: 13px 22px;
+    position: absolute;
+    left: 9px;
+    top: 50%;
+    transform: translate(1%, -50%);
+    height: 53px;
+}
+
+.hero .icon {
+    width: 37px;
+    background: #b9f6ca;
+    border-radius: 50%;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    color: #2e5c3b;
+}
+
+input::selection {
+    border: 1px solid #008060;
+}
+
+input:focus {
+    border-color: #8e9198;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075)
+}
+@media (max-width: 537px){
+    .hero h1{
+        font-size:33px!important;
+        line-height: normal;
+    }
+}

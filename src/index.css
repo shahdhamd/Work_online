@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&family=Mirza:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Harmattan:wght@400;500;600;700&family=Mirza:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color:#444; */
+
+}
+body{
+  /* font-family: "Noto Kufi Arabic", sans-serif; */
+  font-family: "Tajawal", sans-serif;
+  /* font-family: "Harmattan", sans-serif; */
+/* background-color: #f0faff; */
+background-color: rgb(241, 242, 242);
+color: black;
+direction: rtl;
+font-weight: 400;
+}
+li{
+list-style: none;
+}
+a{
+  cursor: pointer;
+}
+ul{
+  padding-left: 0;
+}
+ input:focus {
+  border: 1px solid #445b63;
+  outline: none; 
+}

@@ -1,0 +1,43 @@
+.Registernow .btn-reg{
+    color: #fff;
+    /* background-color: #208068; */
+    background-color: #445b63;
+    width: 150px;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.Registernow .containerr{
+    width: 85%;
+    margin: auto;
+}
+.Registernow{
+    background-color:    #f1f2f2;
+overflow: hidden;
+}
+.Registernow .image{
+    min-height: 100%;
+    position: relative;
+}
+.Registernow .image::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%) rotate(16deg);
+    width: 10px;
+    height: 220%;
+    background-color: white;
+    left: 5%;
+}
+
+.Registernow .text{
+    padding: 80px 30px 30px 30px;
+}
+
+.Registernow h2{    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;}

@@ -1,0 +1,74 @@
+.services {
+    /* background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important; */
+    background-color: white;
+}
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 44px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services .containerr {
+    width: 95%;
+    margin: auto;
+    padding: 80px 0 30px 0;
+}
+
+.services .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    direction: rtl;
+        margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+}
+/* .services .item::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -39%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(68, 91, 99,.7);
+    opacity: 0.9;
+    transform: skew(-45deg);
+} */
+.services .item img {
+    width: 100%;
+    height: 197px;
+    transition: 0.2s ease-in-out;
+}
+
+.services .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.services .overlady p{
+    z-index: 1;
+    margin-top: 24.75%;
+    margin-bottom: 24.75%;
+    font-size: 22px;
+}
+
+.overlady {
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .image a{
+    color: white;
+}
+.services .item:hover img{
+    transform: scale(1.1)!important;
+}
